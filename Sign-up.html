@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <title>Sign-Up</title>
+
+    <style type="text/css">
+    	.Divider {
+              position: relative;
+              text-align:center;
+              margin:10px;
+
+    	}
+
+    	.Divider:after
+    	{
+    		/*position: absolute;
+    		content: "";*/
+    		width: 100%;
+    		border-bottom: 2px solid red;
+    		top: 50%;
+    		left: 0;
+    	}
+
+    </style>
+  </head>
+  <body>
+    <!-- Start Sign-Up -->
+
+    <div class="container">
+    	
+    	<div class="card">
+ 
+  <div class="card-body mx-auto">
+   
+    <h4 class="card-title mt-3 text-center">Create Account</h4>
+    <div class="container text-center	">
+    	 <p>Get Started With Free Account</p>
+    </div>
+   
+
+<div class="d-grid gap-2 md-block">
+  <button class="btn btn-danger"><i class="fab fa-google"></i> Log-In Via Google</button>
+  <button class="btn btn-primary"> <i class="fab fa-facebook"></i> Log-In Via FaceBook 
+  </button>
+</div>
+<p class="Divider ">
+	<span class="bg-light">Or</span>
+</p>
+
+<!-- Start Of Form -->
+    
+  <form>
+  	<!-- Name Feild -->
+<div class="form-group input-group ">
+
+	 <div class="input-group-prepend">
+          <span class="input-group-text">
+          	 <i class="fa fa-user " style='font-size:24px'></i> 
+
+          </span>
+        </div>
+   
+    <input type="text" 
+    class="form-control" 
+    id="exampleInputEmail1" 
+    aria-describedby="emailHelp"
+        placeholder="Enter Email" />
+   
+  </div>
+  <!-- Name Feild End -->
+
+  <!-- Email Feild -->
+
+  <div class="form-group input-group py-3">
+
+	 <div class="input-group-prepend">
+          <span class="input-group-text">
+          	 <i class="fa fa-envelope " style='font-size:24px'></i> 
+
+          </span>
+        </div>
+   
+    <input type="email" 
+    class="form-control" 
+    id="exampleInputEmail1" 
+    aria-describedby="emailHelp"
+        placeholder="Enter Name" />
+   
+  </div>
+<!-- Email Feild End -->
+
+
+<!-- phone feild -->
+
+
+
+ <div class="form-group input-group">
+
+	 <div class="input-group-prepend">
+          <span class="input-group-text">
+          	 <i class="fa fa-phone " style='font-size:24px'></i> 
+
+          </span>
+        </div>
+   
+
+    <select class="custom-select" style="max-width: 80px">
+    	<option selected disabled="">Select Phone Code</option>
+    	<option>+91</option>
+    	<option>+92</option>
+    	<option>+93</option>
+    </select>
+
+    <input type="number" 
+    class="form-control" 
+    id="exampleInputEmail1" 
+    aria-describedby="emailHelp"
+        placeholder="Enter Number" />
+   
+  </div>
+
+
+
+
+<!-- end of phone feild -->
+
+
+
+
+<!-- type feild -->
+
+ <div class="form-group input-group py-3">
+
+	 <div class="input-group-prepend">
+          <span class="input-group-text">
+          	 <i class="fa fa-building " style='font-size:24px'></i> 
+
+          </span>
+        </div>
+   
+
+    <select class="custom-select">
+    	<option selected disabled="">Select User Type</option>
+    	<option>Student</option>
+    	<option>Teacher</option>
+    	<option>Admin</option>
+    </select>
+
+    <input type="text" 
+    class="form-control" 
+    id="exampleInputEmail1" 
+    aria-describedby="emailHelp"
+        placeholder="Enter User Type" />
+   
+  </div>
+
+
+
+<!-- type feild end -->
+
+
+<!-- password feild -->
+
+<div class="form-group input-group ">
+
+	 <div class="input-group-prepend">
+          <span class="input-group-text">
+          	 <i class="fa fa-lock " style='font-size:24px'></i> 
+
+          </span>
+        </div>
+   
+    <input type="password" 
+    class="form-control" 
+    id="exampleInputEmail1" 
+    aria-describedby="emailHelp"
+        placeholder="Enter password" />
+   
+  </div>
+
+<!-- end of password feild -->
+
+
+
+<!-- repeat password feild -->
+
+<div class="form-group input-group py-3">
+
+	 <div class="input-group-prepend">
+          <span class="input-group-text">
+          	 <i class="fa fa-unlock " style='font-size:24px'></i> 
+
+          </span>
+        </div>
+   
+    <input type="password" 
+    class="form-control" 
+    id="exampleInputEmail1" 
+    aria-describedby="emailHelp"
+        placeholder="Enter password" />
+   
+  </div>
+
+
+<div class="d-grid gap-2 md-block py-3">
+  <button type="submit" class="btn btn-outline-success"> Create</button>
+    </button>
+</div>
+<div class="container text-center ">
+	<p class="sp">Have an Account?
+     <a href="Log-In.html">Log In</a>
+</p>
+</div>
+
+<!-- end of repeat password feild -->
+  </form>
+
+<!-- End of Form -->
+   
+   
+         </div>
+              </div>
+                 </div>
+
+
+
+
+
+    <!-- end Sign-Up -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+  
+  </body>
+</html>
